@@ -1,6 +1,6 @@
 #language: pt
 
-  Funcionalidade: Compras e checkout area logada
+  Funcionalidade: Compras e checkout
 
     Cenario: Adicionar vestidos para o carrinho e validar carrinho de checkout
       Dado que clicado no menu 'Women'
