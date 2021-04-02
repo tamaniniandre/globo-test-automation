@@ -2,7 +2,6 @@ package com.globo.test.automation.steps;
 
 import com.globo.test.automation.page.CommonPage;
 import io.cucumber.java.pt.Dado;
-import io.cucumber.java.pt.E;
 import io.cucumber.java.pt.Quando;
 import org.fluentlenium.core.annotation.Page;
 

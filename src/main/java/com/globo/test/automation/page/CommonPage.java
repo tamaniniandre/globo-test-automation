@@ -2,7 +2,6 @@ package com.globo.test.automation.page;
 
 import net.serenitybdd.core.pages.PageObject;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 public class CommonPage extends PageObject {
 
