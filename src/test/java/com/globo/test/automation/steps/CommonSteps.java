@@ -10,17 +10,18 @@ public class CommonSteps {
 
     @Page
     CommonPage commonPage;
-
-    @Dado("clicado no menu de vestidos")
+    
+    @Dado("que clicado no menu de vestidos")
     public void clicadoNoMenuDeVestidos(){
         commonPage.clickOnWomenMenu();
     }
+
     @Dado("que clicado no menu {string}")
     public void clicadoNoMenu(String menu){
         commonPage.clickOnMenu(menu);
     }
 
-    @Quando("realizar clicar para fazer o checkout")
+    @Quando("clicar para fazer o checkout na tela principal")
     public void realizarClicarParaFazerOCheckout() {
         commonPage.checkoutMainScreen();
     }
