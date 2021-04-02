@@ -10,7 +10,7 @@
 - Para execução do teste de BE:
   - Clicar com o botão direito no runner: src/test/java/com/globo/test/automation/runners/RunSerenityWSTests.java
   - E então clique em: Run RunSerenityWSTests.java
-  - A features desenvolvida se encontram na pasta: src/test/resources/features
+  - A features desenvolvidas se encontram na pasta: src/test/resources/features
   
   **Caso tenha algum problema com as dependências:**
     - Execute o comando: mvn clean
