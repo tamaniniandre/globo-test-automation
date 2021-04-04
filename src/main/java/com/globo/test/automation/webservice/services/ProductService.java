@@ -107,7 +107,7 @@ public class ProductService {
 
     private static Product convertMapKeyToProduct(Map<String,String> mapKey){
         Product product = new Product();
-        if(mapKey.get("nome").contains("Randomico")){
+        if(mapKey.get("nome").toLowerCase().contains("randomico")){
             product.setNome(FakeDatas.generateRandomProductDescription());
         }
         else {

@@ -1,5 +1,6 @@
 package com.globo.test.automation.webservice.services;
 
+import com.globo.test.automation.dto.User;
 import com.globo.test.automation.utils.PropertiesFile;
 import com.google.gson.JsonObject;
 import io.restassured.RestAssured;
@@ -31,5 +32,4 @@ public class LoginService {
                 .build().header("Authorization", token);
 
     }
-
 }
