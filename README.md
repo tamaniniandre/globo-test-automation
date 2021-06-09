@@ -1,5 +1,7 @@
 # globo-test-automation
 
+[![Badge ServeRest](https://img.shields.io/badge/API-ServeRest-green)](https://github.com/ServeRest/ServeRest/)
+
 **Como executar:**
 - Para baixar o projeto: 
   git clone https://github.com/tamaniniandre/globo-test-automation.git
